@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import { generateId } from "../util/todoStorage";
+import { generateId } from "@/util/todoStorage";
 
 export default function useNewTodo(todosRef) {
     const newTodoRef = ref(''); //新任务标题
