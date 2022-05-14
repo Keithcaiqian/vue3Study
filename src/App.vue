@@ -4,6 +4,7 @@
       <router-link class="navItem" to="/todoList">todoList</router-link>
       <router-link class="navItem" to="/vmodel">模板中的变化</router-link>
       <router-link class="navItem" to="/comp">组件中的变化</router-link>
+      <router-link class="navItem" to="/callback">组件传递函数</router-link>
     </div>
     <div class="main">
       <router-view></router-view>
